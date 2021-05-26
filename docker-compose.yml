@@ -6,6 +6,6 @@ services:
     container_name: testapi
     build:
       context: .
-      dockerfile: .
+      dockerfile: Dockerfile
     ports:
     - "5000:5000"
