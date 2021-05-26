@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  ims.api:
+    image: testapi
+    container_name: testapi
+    build:
+      context: .
+      dockerfile: .
+    ports:
+    - "5000:5000"
