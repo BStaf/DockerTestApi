@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  testapi:
+    image: bills4224/test-api
+    ports:
+    - "5000:5000"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure 
