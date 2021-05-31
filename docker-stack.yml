@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   testapi:
-    image: bills4224/test-api:v1.1
+    image: bills4224/test-api:v1.2
     ports:
     - "5000:5000"
     deploy:
