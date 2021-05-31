@@ -7,7 +7,7 @@ app = flask.Flask(__name__)
 #app.config["DEBUG"] = True
 
 #seed(1)
-data = {"pid":randint(0,1000)}
+data = {"v1 data":randint(0,1000)}
 
 @app.route('/', methods=['GET'])
 def home():

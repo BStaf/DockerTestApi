@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   test.api:
-    image: testapi
+    image: bills4224/testapi
     container_name: testapi
     build:
       context: .
